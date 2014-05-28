@@ -27,7 +27,7 @@ public class MyGdxGame implements ApplicationListener {
 	public void create() {
 		float w = Gdx.graphics.getWidth();
 		float h = Gdx.graphics.getHeight();
-
+		// Gino
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false, w, h);
 
